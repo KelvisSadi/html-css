@@ -7,6 +7,21 @@
     <title>Imagens flexiveis</title>
 </head>
 <body>
-    
+    <h1>Imagens dinâmicas</h1>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png"><!--Vai aparecer se a tela tiver no mínimo  1050px-->
+        <source media="(min-width: 750px)" srcset="imagens/foto-m.png" type="image/png"> <!--Vai aparecer se a tela tiver no mínimo 750px-->
+        <img src="imagens/foto-p.png" alt="foto grande"><!--Vai aparecer caso a tela tenha menos de 750px-->
+    </picture>
+    <h2>Áudio</h2>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="../midia/04 - Help!.mp3" type="audio/mpeg">
+    </audio>
+    <h2>videos</h2>
+    <video width="650px" height="435px" poster="../imagens/carro_teste-m.jpg" controls autoplay>
+        <source src="../midia/tutorial_parking.mp4" type="video/mp4">
+    </video>
+    <h2>Video do YT</h2>
+    <iframe width="650px" height="435px" src="https://www.youtube.com/embed/4OZYsFl-J9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
