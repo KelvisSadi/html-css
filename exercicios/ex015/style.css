@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{
+    background-color: rgba(0, 0, 0, 0.863);
+    font-family: monospace;
+    font-size: 1.3em;
+    color: greenyellow;
+}
+h1, h2{ 
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 0px 1px 7px greenyellow;
+}
+p{
+    text-align: justify;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-shadow: 0px 1px 5px greenyellow;
+}
+#align-r{
+    text-align: center;
+}
