@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+    background-color: #D9DEDB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color:black;
+}
+h1, h2{
+    color: #7286ED;
+    
+}
+h1#principal{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #7286ED;
+}
+.subtitulo{
+    text-align: center;
+    background-color: #e9f0ec;
+
+}
+.niveis_curso{
+    color: #076785;
+  
+}
+.destaque:hover{
+    background-color: deeppink;
+}
