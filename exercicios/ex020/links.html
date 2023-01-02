@@ -17,6 +17,7 @@
         }
         div#menu {
             background-color: rgba(0, 0, 0, 0.158);
+            box-shadow: -2px 3px 4px rgba(0, 0, 0, 0.650);
             border-radius: 2px;
             display: inline-block;
             height: auto;
@@ -35,12 +36,18 @@
         div#menu:hover ul {
             display: inline-block;
         }
+        div#menu:hover {
+            box-shadow: -2px 3px 4px rgba(0, 0, 0, 0.650);
+        }
         .botao {
             display: block;
             width: 25px;
             font-size: 1em;
             margin: 10px;
             text-align: center;
+        }
+        div#menu:hover .botao {
+            margin: 10px auto;
         }
         a {
             color: rgb(0, 0, 0);
