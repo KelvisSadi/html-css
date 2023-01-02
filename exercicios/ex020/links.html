@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-image: linear-gradient(to top, rgb(236, 236, 236) 50% , rgb(87, 86, 86));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        h1 {
+            text-align: center;
+        }
+        div#menu {
+            background-color: rgba(0, 0, 0, 0.158);
+            border-radius: 2px;
+            display: inline-block;
+            height: auto;
+            width: auto;
+            
+        }
+        div#menu > ul {
+            display: none;
+            list-style: none;
+            padding: 0;
+        }
+        div#menu > ul li {
+            border-bottom: 1px solid rgb(0, 0, 0);
+            margin: 3px;
+        }
+        div#menu:hover ul {
+            display: inline-block;
+        }
+        .botao {
+            display: block;
+            width: 25px;
+            font-size: 1em;
+            margin: 10px;
+            text-align: center;
+        }
+        a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:visited {
+            color: rgb(255, 255, 255);
+        }
+        a:hover {
+            text-shadow: 0 0 3px rgb(0, 255, 221);
+        }
+        a:active {
+            color: rgb(0, 255, 255);
+        }
+        .especial::before {
+            content: '10% de desconto! -> ';
+            color: rgb(173, 255, 47);
+        }
+        .especial::after {
+            content: ' [link externo]';
+            font-size: 0.7em;
+            color: rgba(240, 255, 255, 0.562);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <div id="menu">
+        <span class="botao">&#9776;</span>
+        <ul>
+            <li><a href="https://github.com" target="_blank">Repositório Github</a></li>
+            <li><a href="https://youtube.com" target="_blank">Canal do Youtube</a></li>
+            <li><a href="https://cursoemvideo.com" target="_blank">Site do CursoemVideo</a></li>
+            <li><a href="https://github.com" target="_blank" class="especial">Mercado Online</a></li>
+        </ul>
+    </div>
+</body>
+</html>
